@@ -76,8 +76,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "Suhail",
+  botname : process.env.BOT_NAME  || "Umer Mughal",
+  ownername:process.env.OWNER_NAME|| "Faizan Umer",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -88,7 +88,7 @@ module.exports = {
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
-  HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
+  HEROKU: process.env.HEROKU_APP_NAME && procepunv.HEROKU_API_KEY,
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
